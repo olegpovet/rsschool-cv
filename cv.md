@@ -1,7 +1,7 @@
-#CV for RSS School
+# CV for RSS School
 Hi! My name is Oleg Knysh.
 
-###Contacts for communication with me:
+### Contacts for communication with me:
 1. Phone number +375333718302
 2.Instagram page @noonclout
 3. Telegram @povetru99
