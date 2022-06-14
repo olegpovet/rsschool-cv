@@ -1,10 +1,8 @@
 # Junior Frontend Developer
 ___
-
 Hi! My name is ***Oleg Knysh.***
 ##### 23 years old 
 ![thats me](face.jpg)
-
 ___
 
 
@@ -21,7 +19,7 @@ ___
 ***The main goal for me it is learn programming throuhg courses, gain a new knowledge. In the future I would like to work as a programmer.***  
  ___ 
 
- ### Education
+ ## Education
 
  _I have a high school certificate. I also graduated from Lyceum No. 5 and have a certificate of secondary special education._
 
