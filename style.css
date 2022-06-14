@@ -1,3 +1,87 @@
 P{
     color:blueviolet;
 }
+<style>
+ul.nav{
+            margin-left: 10px;
+            padding-left: 10px;
+            list-style: none;
+        }
+        .nav li {
+            display: inline;
+         }
+         ul.nav a {
+                display: inline-block;
+                width: 18em;
+                padding:18px;
+                margin: 0 6px;
+                background-color: #f4f4f4;
+                border: 1px dashed #333;
+                text-decoration: greenyellow;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+            h1{
+                text-align: center;
+
+            }
+            
+            .block1 { 
+                width: 200px; 
+                background: #fc0;
+                padding: 5px;
+                padding-right: 20px; 
+                border: solid 1px black; 
+                float: left;
+               }
+               .block2 { 
+                width: 200px; 
+                background: #fc0; 
+                padding-right: 20px; 
+                margin: 0 140px;
+                border: solid 1px black; 
+                float: left; 
+                position: relative; 
+                top: 40px; 
+                left: -90px; 
+               }
+               .block3 { 
+                width: 200px; 
+                background: #fc0; 
+                padding: 5px; 
+                margin: 0 6px;
+                border: solid 1px black; 
+                float: left; 
+                position: relative; 
+                top: 40px; 
+                left: -100px; 
+               }
+               .block4 { 
+                width: 200px; 
+                background: #fc0; 
+                padding: 5px; 
+                margin: 0 6px;
+                border: solid 1px black; 
+                float: left; 
+                position: relative; 
+                top: 40px; 
+                left: -70px; 
+               }
+               .block5 { 
+                width: 200px; 
+                background: #fc0; 
+                padding: 5px; 
+                margin: 0 6px;
+                border: solid 1px black; 
+                float: left; 
+                position: relative; 
+                top: 40px; 
+                left: -70px; 
+               }
+
+            
+ </style>
