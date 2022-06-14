@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type:="text/css>
+        body {
+            font-family: 'Cardo', serif;
+            margin: 0;
+        
+            font-size: 20px;
+            color: #333;
+            line-height: 5.0;
+            background:url("/assets/back.jpg") center no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+        
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+        
+        
+        
+        .container {
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        
+        
+        
+        .intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+        
+            
+        }
+        .intro-title {
+            font-size: 60px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-align:center;
+            line-height: 1;
+            
+            
+         
+        }
+        .intro-inner {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .intro-subtitle {
+            margin-bottom: 140px;
+            font-size: 30px;
+            color: black;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+        }
+        
+        .header {
+            width: 100%;
+            top: 0;
+            right: 0;
+            left: 0;
+            position: absolute;
+            z-index: 900;
+        }
+        .header-upper {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-JFD {
+            font-size: 50px;
+            font-weight: 800;
+            color: rgb(141, 49, 7);
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .nav {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        
+        .nav_link {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 15px;
+            color: rgb(201, 141, 82);
+            text-decoration: none;
+           
+        
+            transition: color .1s linear;
+        }
+        .nav_link:hover {
+            color:brown;   
+        }
+        
+        .services {
+            display:inline-block;
+            
+        }
+        
+        
+        
+        .services_item {
+            flex: 1 1 0;
+            position: relative;
+            padding-left: 10px;
+        }
+        
+        .services_text {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #333;
+            
+        }
+        
+        .lyrics {
+            font: size 10px;
+            color: chocolate;
+        }
+        
+        
+        
+        .services_title {
+            font-size: 20px;
+            color: brown;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    </style>
+    
+    <title>Oleg Knysh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Fascinate&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header class="header">
+    <div class="container">
+        <div class="header-upper">
+            <div class="header-JFD">Junior Front-End Developer</div>
+
+            <nav class="nav">
+                <a class="nav_link" href="/face.jpg"><b>My Photo</b></a>
+                <a class="nav_link" href="#Summary"><b>Summary</b></a>
+                <a class="nav_link" href="#Education"><b>Education</b></a>
+                <a class="nav_link" href="#Expirience"><b>Expirience</b></a>
+                <a class="nav_link" href="Skills"><b>Skills<b></a>
+            </nav>
+        </div>
+    </div>
+ </header>
+ <div class="intro">
+    <div class="container">
+        <div class="intro-inner">
+        <h1 class="intro-title">OLEG KNYSH</h1>
+        <h2 class="intro-subtitle">23 years old</h2>
+        </div>
+    </div>
+ </div>
+
+
+ <section class="section">
+     <div class="container">
+
+         <div class="services">
+            <div clas="services_title">Contacts</div>
+            <div class="services_text">
+                <ul>
+                    <li>Phone number +375333718302</li>
+                    <li>Instagram</li>
+                    <li>Telegram</li>
+                    <li>Email: povetru99@gmail.com</li>
+                    <li>DS OLEG KN#4803</li>
+                </ul>
+            </div>
+            <div class="services_title">Summary</div>
+            <div class="services_text"><p class="lyrics">The main goal for me it is learn programming throuhg courses, 
+                gain a new knowledge. In the future I would like to work as a programmer.</p></div>
+
+                <div class="services_title">Education</div>
+                <div class="services_text"><p class="lyrics">I have a high school certificate. I also graduated from Lyceum No. 5 and have a certificate of secondary special education.
+                     English language level - A2 Elementary.
+                     CV thats my first project. Also this task my first experience in programming. I’m so impressed.</p>
+                    </div>
+            
+            <div class="services_title">Expirience</div>
+            <div class="services_text"><p class="lyrics">HTML and CSS courses on You Tube
+                RS Schools Course “JavaScript, front-end developer” 2022q2</p></div>
+
+                <div class="services_title">Skills</div>
+                <div class="services_text"><p class="lyrics">HTML, CSS, GIT</p>
+                    </div>
+         </div>  
+     </div>  
+ </section>
+</body>
+</html>
